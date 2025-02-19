@@ -1,6 +1,6 @@
-package src;
+package src.interfaces;
 
-interface Watch {
+public interface Watch {
 default void alarm(){
     System.out.println("Alarm is ringing");
 }

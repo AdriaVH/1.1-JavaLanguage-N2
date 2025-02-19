@@ -1,6 +1,6 @@
-package src;
+package src.interfaces;
 
-interface Camera {
+public interface Camera {
     default void takePicture(){
         System.out.println("Taking a picture, smile!");
     }

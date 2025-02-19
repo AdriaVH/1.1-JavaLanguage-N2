@@ -1,6 +1,9 @@
-package src;
+package src.classes;
 
-public class Smartphone extends Phone implements Camera, Watch{
+import src.interfaces.Camera;
+import src.interfaces.Watch;
+
+public class Smartphone extends Phone implements Camera, Watch {
     public Smartphone(String brand, String model) {
         super(brand, model);
     }
