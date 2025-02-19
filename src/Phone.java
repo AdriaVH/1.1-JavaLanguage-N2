@@ -1,3 +1,5 @@
+package src;
+
 public abstract class Phone {
     private String brand;
     private String model;
