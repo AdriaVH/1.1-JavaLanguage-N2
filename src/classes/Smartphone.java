@@ -9,11 +9,11 @@ public class Smartphone extends Phone implements Camera, Watch {
     }
     @Override
     public void takePicture() {
-        Camera.super.takePicture();
+        System.out.println("Taking a picture, smile!");
     }
     @Override
     public void alarm() {
-        Watch.super.alarm();
+        System.out.println("Alarm is ringing");
     }
     @Override
     public void call(String phoneNum) {
